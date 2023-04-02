@@ -1,0 +1,6 @@
+firebird-base==1.6.1
+firebird-driver==1.8.
+firebirdsql==1.2.2
+openpyxl==3.1.2
+pandas==1.5.3
+
