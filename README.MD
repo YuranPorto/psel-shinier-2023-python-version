@@ -1,6 +1,6 @@
 # Versão python do desafio proposto pela Shinier
 #### Projeto original realizado em php https://github.com/YuranPorto/psel-shinier-2023
-### Arquivos na branch master https://github.com/YuranPorto/psel-shinier-2023-python-version/tree/master
+### Projeto todo na branch https://github.com/YuranPorto/psel-shinier-2023-python-version/tree/master
 <br>
 
 ### - Todos os pacotes necessários estão no arquivo Requerimentes.txt
