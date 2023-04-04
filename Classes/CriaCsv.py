@@ -31,5 +31,4 @@ class CriaCsv():
     ]
 
     csv = pd.DataFrame(dadosBd)
-    csv.to_csv('Files/Finaceiro.csv', header=cabecalho, sep=';', index=False)
-    print('CSV CRIADO')
+    csv.to_csv('Files/Financeiro.csv', header=cabecalho, sep=';', index=False)

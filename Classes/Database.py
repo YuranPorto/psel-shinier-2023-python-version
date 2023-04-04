@@ -1,17 +1,16 @@
 import firebirdsql
-import credentials
+from .credentials import *
 
 
 class DataBase:
     conn = firebirdsql.connect(
-        host=credentials.HOST,
-        database=credentials.DATABASE,
-        port=credentials.PORT,
-        user=credentials.USER,
-        password=credentials.PASSWORD,
+        host=HOST,
+        database=DATABASE,
+        port=PORT,
+        user=USER,
+        password=PASSWORD,
         charset='WIN1252'
     )
-
     def execute(self, sql):
         try:
             cur =self.conn.cursor()
